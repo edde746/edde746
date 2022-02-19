@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-700;
+}
+
+h1 {
+  @apply text-xl font-semibold;
+}
+
+p {
+  @apply text-slate-600;
+}
+
+.languages {
+  @apply flex gap-2 flex-wrap;
+}
+
+.languages > img {
+  @apply w-12 h-12;
+}
+
+.projects {
+  @apply flex overflow-x-scroll select-none snap-mandatory gap-4 rounded-md;
+}
+
+.projects::-webkit-scrollbar {
+  display: none;
+}
+
+.projects > * {
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-app-region: no-drag;
+  @apply flex-shrink-0 aspect-video h-48 snap-center rounded-md overflow-hidden object-cover;
+  @apply border border-slate-200;
+  max-width: calc(100vw - 2rem);
+}
+
+.projects > * > img {
+  @apply object-cover h-full w-full;
+}
+
+.project-overlay {
+  @apply bg-black bg-opacity-0 group-hover:bg-opacity-30 absolute inset-0 transition;
+}
+
+.project-overlay > svg {
+  @apply absolute opacity-0 group-hover:opacity-100 bottom-4 right-4 w-6 h-6 text-slate-50 transition;
+}
+
+.project-overlay > h3 {
+  @apply text-3xl font-bold absolute top-2 left-2 opacity-40 group-hover:text-white group-hover:mix-blend-normal transition;
+  mix-blend-mode: difference;
+  color: grey;
+}
