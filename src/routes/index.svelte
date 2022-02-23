@@ -107,6 +107,13 @@
         </div>
         <img src="/images/tiktok.gif" alt="Tiktok Downloader" />
       </a>
+      <a class="relative group" href="https://e746chat.herokuapp.com/">
+        <div class="project-overlay">
+          <h3>live-chat</h3>
+          <ArrowRightIconSolid className="bottom-arrow" />
+        </div>
+        <img src="/images/live-chat.gif" alt="Live Chat" />
+      </a>
       <a class="relative group" href="https://edde746.github.io/rdpservers/">
         <div class="project-overlay">
           <h3 style="color:#fff">rdpservers</h3>
