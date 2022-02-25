@@ -8,7 +8,7 @@
     <div class="space-y-2">
       <div class="flex gap-2 items-center">
         <h1>edde746</h1>
-        <a href="https://github.com/edde746" class="group">
+        <a rel="external" href="https://github.com/edde746" class="group">
           <img
             src="https://unpkg.com/simple-icons/icons/github.svg"
             alt="Github"
@@ -63,21 +63,21 @@
       <p>Unity games made with Unity and C#. Playable in browser powered by WASM.</p>
     </div>
     <div class="projects snap-x" use:dragScroll>
-      <a class="relative group" href="https://edde746.github.io/fps-spel/">
+      <a class="relative group" rel="external" href="https://edde746.github.io/fps-spel/">
         <div class="project-overlay">
           <h3>fps-spel</h3>
           <ArrowRightIconSolid className="bottom-arrow" />
         </div>
         <img src="/images/fps.gif" alt="FPS Spel" />
       </a>
-      <a class="relative group" href="https://edde746.github.io/fysikspel/">
+      <a class="relative group" rel="external" href="https://edde746.github.io/fysikspel/">
         <div class="project-overlay">
           <h3>fysikspel</h3>
           <ArrowRightIconSolid className="bottom-arrow" />
         </div>
         <img src="/images/fysik.gif" alt="Fysikspel" />
       </a>
-      <a class="relative group" href="https://edde746.github.io/plattformspel/">
+      <a class="relative group" rel="external" href="https://edde746.github.io/plattformspel/">
         <div class="project-overlay">
           <h3>plattformspel</h3>
           <ArrowRightIconSolid className="bottom-arrow" />
@@ -93,49 +93,49 @@
       <p>Web projects made with different technologies, including SvelteKit, Next.JS, React and Django.</p>
     </div>
     <div class="projects snap-x" use:dragScroll>
-      <a class="relative group" href="https://twce746.herokuapp.com/">
+      <a class="relative group" rel="external" href="https://twce746.herokuapp.com/">
         <div class="project-overlay">
           <h3>twitter-clone</h3>
           <ArrowRightIconSolid className="bottom-arrow" />
         </div>
         <img src="/images/twitter.gif" alt="Twitter Clone" />
       </a>
-      <a class="relative group" href="https://tiktok-downloader-ebon.vercel.app/">
+      <a class="relative group" rel="external" href="https://tiktok-downloader-ebon.vercel.app/">
         <div class="project-overlay">
           <h3>tiktok-downloader</h3>
           <ArrowRightIconSolid className="bottom-arrow" />
         </div>
         <img src="/images/tiktok.gif" alt="Tiktok Downloader" />
       </a>
-      <a class="relative group" href="https://e746chat.herokuapp.com/">
+      <a class="relative group" rel="external" href="https://e746chat.herokuapp.com/">
         <div class="project-overlay">
           <h3>live-chat</h3>
           <ArrowRightIconSolid className="bottom-arrow" />
         </div>
         <img src="/images/live-chat.gif" alt="Live Chat" />
       </a>
-      <a class="relative group" href="https://edde746.github.io/rdpservers/">
+      <a class="relative group" rel="external" href="https://edde746.github.io/rdpservers/">
         <div class="project-overlay">
           <h3 style="color:#fff">rdpservers</h3>
           <ArrowRightIconSolid className="bottom-arrow" />
         </div>
         <img src="/images/rdp.gif" alt="rdpservers" />
       </a>
-      <a class="relative group" href="https://edde746.github.io/nft-gen/">
+      <a class="relative group" rel="external" href="https://edde746.github.io/nft-gen/">
         <div class="project-overlay">
           <h3>nft-gen</h3>
           <ArrowRightIconSolid className="bottom-arrow" />
         </div>
         <img src="/images/nft.gif" alt="NFT Generator" />
       </a>
-      <a class="relative group" href="https://edde746.github.io/svelte-toasts/">
+      <a class="relative group" rel="external" href="https://edde746.github.io/svelte-toasts/">
         <div class="project-overlay">
           <h3>toasts demo</h3>
           <ArrowRightIconSolid className="bottom-arrow" />
         </div>
         <img src="/images/toasts.gif" alt="svelte-toasts" />
       </a>
-      <a class="relative group" href="https://gymnasieprojekt-2021.herokuapp.com/">
+      <a class="relative group" rel="external" href="https://gymnasieprojekt-2021.herokuapp.com/">
         <div class="project-overlay">
           <h3 style="color:#fff">gymnasieprojekt</h3>
           <ArrowRightIconSolid className="bottom-arrow" />
