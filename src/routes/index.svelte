@@ -63,6 +63,15 @@
       <p>Unity games made with Unity and C#. Playable in browser powered by WASM.</p>
     </div>
     <div class="projects snap-x" use:dragScroll>
+      <a class="relative group" rel="external" href="https://github.com/edde746/survival-spel/">
+        <div class="project-overlay">
+          <h3>survival-spel</h3>
+          <ArrowRightIconSolid className="bottom-arrow" />
+        </div>
+        <video class="w-full" autoplay loop muted playsinline>
+          <source src="/images/survival.mp4" type="video/mp4" />
+        </video>
+      </a>
       <a class="relative group" rel="external" href="https://edde746.github.io/rpg-spel/">
         <div class="project-overlay">
           <h3>rpg-spel</h3>
