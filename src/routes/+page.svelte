@@ -12,7 +12,7 @@
           <img
             src="https://unpkg.com/simple-icons/icons/github.svg"
             alt="Github"
-            class="h-5 w-5 group-hover:opacity-70 transition"
+            class="h-5 w-5 group-hover:opacity-70 transition dark:invert"
           />
         </a>
       </div>
@@ -35,6 +35,10 @@
       <h1>Languages</h1>
       <div class="languages">
         <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+          alt="TypeScript"
+        />
+        <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
           alt="JavaScript"
         />
@@ -47,12 +51,20 @@
     <div class="space-y-2">
       <h1>Technologies</h1>
       <div class="languages">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-plain.svg" alt="Svelte" />
+        <img
+          class="dark:invert"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-plain.svg"
+          alt="Svelte"
+        />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" alt="Unity" />
+        <img
+          class="dark:invert"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg"
+          alt="Unity"
+        />
       </div>
     </div>
   </div>
