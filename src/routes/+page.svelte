@@ -72,12 +72,16 @@
   <div class="space-y-2 relative overflow-x-hidden">
     <div>
       <h1>Unity Projects</h1>
-      <p>Unity games made with Unity and C#. Playable in browser powered by WASM.</p>
+      <p class="text-sm">Unity games made with Unity and C#. Playable in browser powered by WASM.</p>
     </div>
     <div class="projects snap-x" use:dragScroll>
       <a class="relative group" rel="external" href="https://github.com/edde746/survival-spel/">
         <div class="project-overlay">
           <h3>survival-spel</h3>
+          <p>
+            Survival game built in Unity, has procedural map generation, resources gathering, building, inventory and
+            crafting system.<br />Not playable in browser.
+          </p>
           <ArrowRightIconSolid className="bottom-arrow" />
         </div>
         <video class="w-full" autoplay loop muted playsinline>
@@ -87,6 +91,7 @@
       <a class="relative group" rel="external" href="https://edde746.github.io/rpg-spel/">
         <div class="project-overlay">
           <h3>rpg-spel</h3>
+          <p>Basic RPG mechanics like movement and a dialogue system.</p>
           <ArrowRightIconSolid className="bottom-arrow" />
         </div>
         <img src="/images/rpg.gif" alt="RPG Spel" />
@@ -118,12 +123,44 @@
   <div class="space-y-2 relative overflow-x-hidden">
     <div>
       <h1>Web Projects</h1>
-      <p>Web projects made with different technologies, including SvelteKit, Next.JS, React and Django.</p>
+      <p class="text-sm">
+        Various projects made with different technologies, including SvelteKit, Next.JS, React, Strapi and Django.
+      </p>
     </div>
     <div class="projects snap-x" use:dragScroll>
+      <a class="relative group" rel="external" href="https://divinemods.com">
+        <div class="project-overlay">
+          <h3>Divine</h3>
+          <p>
+            E-commerce site for software licenses built with SvelteKit, Strapi and Docker.<br />
+            Integrates Stripe, Coinbase and PayPal for payments and Amazon SES for email including magic-link login.
+          </p>
+          <ArrowRightIconSolid className="bottom-arrow" />
+        </div>
+        <video class="w-full" autoplay loop muted playsinline>
+          <source src="/images/divine.mp4" type="video/mp4" />
+        </video>
+      </a>
+      <a class="relative group" rel="external" href="https://zeropointexotics.com">
+        <div class="project-overlay">
+          <h3>ZeroPoint Exotics</h3>
+          <p>
+            Rental car booking site built with SvelteKit, Strapi and Docker.<br />
+            Renders contacts as docx and e-mails them. Cars can be managed via the Strapi admin panel.
+          </p>
+          <ArrowRightIconSolid className="bottom-arrow" />
+        </div>
+        <video class="w-full" autoplay loop muted playsinline>
+          <source src="/images/zp.mp4" type="video/mp4" />
+        </video>
+      </a>
       <a class="relative group" rel="external" href="https://github.com/edde746/twitter-clone">
         <div class="project-overlay">
           <h3>twitter-clone</h3>
+          <p>
+            Twitter clone built with SvelteKit and Redis.<br />Uses Redis as the primary database and Amazon S3 for user
+            uploads such as images.
+          </p>
           <ArrowRightIconSolid className="bottom-arrow" />
         </div>
         <img src="/images/twitter.gif" alt="Twitter Clone" />
