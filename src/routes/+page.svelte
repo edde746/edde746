@@ -121,7 +121,7 @@
       <p>Web projects made with different technologies, including SvelteKit, Next.JS, React and Django.</p>
     </div>
     <div class="projects snap-x" use:dragScroll>
-      <a class="relative group" rel="external" href="https://twce746.herokuapp.com/">
+      <a class="relative group" rel="external" href="https://github.com/edde746/twitter-clone">
         <div class="project-overlay">
           <h3>twitter-clone</h3>
           <ArrowRightIconSolid className="bottom-arrow" />
@@ -135,7 +135,7 @@
         </div>
         <img src="/images/tiktok.gif" alt="Tiktok Downloader" />
       </a>
-      <a class="relative group" rel="external" href="https://e746chat.herokuapp.com/">
+      <a class="relative group" rel="external" href="https://github.com/edde746/live-chat">
         <div class="project-overlay">
           <h3>live-chat</h3>
           <ArrowRightIconSolid className="bottom-arrow" />
