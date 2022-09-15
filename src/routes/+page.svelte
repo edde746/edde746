@@ -154,6 +154,19 @@
           <source src="/images/zp.mp4" type="video/mp4" />
         </video>
       </a>
+      <a class="relative group" rel="external" href="https://cedara.cc">
+        <div class="project-overlay">
+          <h3>Cedara</h3>
+          <p>
+            E-commerce site for software licenses built with SvelteKit, Strapi and Docker.<br />
+            Uses Stripe and Coinbase for payments and integrated OAuth login with Discord and Google.
+          </p>
+          <ArrowRightIconSolid className="bottom-arrow" />
+        </div>
+        <video class="w-full" autoplay loop muted playsinline>
+          <source src="/images/cedara.mp4" type="video/mp4" />
+        </video>
+      </a>
       <a class="relative group" rel="external" href="https://github.com/edde746/twitter-clone">
         <div class="project-overlay">
           <h3>twitter-clone</h3>
