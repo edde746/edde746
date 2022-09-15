@@ -1,5 +1,4 @@
 <script>
-  import { ArrowRightIconSolid } from '@codewithshin/svelte-heroicons';
   import { dragScroll } from '$lib/dragScroll';
   import Project from './Project.svelte';
 </script>
