@@ -75,7 +75,7 @@
         Various projects made with different technologies, including SvelteKit, Next.JS, React, Strapi and Django.
       </p>
     </div>
-    <div class="projects grid gap-4 grid-cols-2">
+    <div class="projects grid gap-4 md:grid-cols-2">
       <Project title="RealDudesInc" href="https://realdudesinc.com" video="rdi.webm" thumbnail="rdi.webp">
         E-commerce site for software licenses built with SvelteKit, Strapi and Docker. Based of the previous design of
         the site but rewritten from scratch with Tailwind for styling.
@@ -152,7 +152,7 @@
       <h1>Game Projects</h1>
       <p class="text-sm">Games made with Unity and C#. Most are playable in browser powered by WASM.</p>
     </div>
-    <div class="projects grid gap-4 grid-cols-2">
+    <div class="projects grid gap-4 md:grid-cols-2">
       <Project
         title="Survival Game"
         href="https://github.com/edde746/survival-spel/"
@@ -192,7 +192,7 @@
       <h1>Other Projects</h1>
       <p class="text-sm">Other miscallaneous and often smaller projects.</p>
     </div>
-    <div class="projects grid gap-4 grid-cols-2">
+    <div class="projects grid gap-4 md:grid-cols-2">
       <Project title="random-ip-generator" href="https://github.com/edde746/random-ip-generator/" thumbnail="ip.webp">
         Python package to generate random IPv4 addresses based on a country code.
       </Project>

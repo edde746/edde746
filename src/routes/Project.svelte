@@ -10,7 +10,7 @@
 </script>
 
 <a
-  class="relative group bg-neutral-900 rounded-md overflow-hidden"
+  class="relative group dark:bg-neutral-900 rounded-md overflow-hidden bg-neutral-300"
   rel="external"
   {href}
   target="_blank"
