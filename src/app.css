@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-slate-50 text-slate-700 dark:bg-[rgb(10,17,32)] dark:text-slate-100;
+  @apply bg-neutral-50 text-neutral-700 dark:bg-neutral-950 dark:text-neutral-100;
 }
 
 @layer base {
@@ -12,7 +12,7 @@ body {
   }
 
   p {
-    @apply text-slate-600 dark:text-slate-300;
+    @apply text-neutral-600 dark:text-neutral-300;
   }
 
   .languages {
@@ -23,25 +23,9 @@ body {
     @apply w-12 h-12;
   }
 
-  .projects {
-    @apply flex overflow-x-scroll select-none snap-mandatory gap-4 rounded-md;
-  }
-
-  .projects::-webkit-scrollbar {
-    display: none;
-  }
-
   .projects > * {
-    -webkit-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-app-region: no-drag;
-    @apply flex-shrink-0 aspect-video h-48 snap-center rounded-md overflow-hidden object-cover;
-    @apply border border-slate-200 dark:border-slate-800;
-    max-width: calc(100vw - 2rem);
-  }
-
-  .projects > * > img {
-    @apply object-cover h-full w-full;
+    @apply rounded-md object-cover;
+    @apply border border-neutral-200 dark:border-neutral-800;
   }
 
   .project-overlay {
@@ -50,7 +34,7 @@ body {
   }
 
   .project-overlay > svg {
-    @apply absolute opacity-0 group-hover:opacity-100 bottom-4 right-4 w-6 h-6 text-slate-50 transition;
+    @apply absolute opacity-0 group-hover:opacity-100 bottom-4 right-4 w-6 h-6 text-neutral-50 transition;
   }
 
   .project-overlay > h3 {

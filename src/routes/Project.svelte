@@ -1,24 +1,46 @@
 <script>
-  import { ArrowRightIconSolid } from '@codewithshin/svelte-heroicons';
   import { inview } from 'svelte-inview';
 
   export let title;
   export let href;
   export let video;
+  export let thumbnail;
   let loadVideo = false;
+  let videoElement;
 </script>
 
-<a class="relative group" rel="external" {href} target="_blank" use:inview on:enter={() => (loadVideo = true)}>
-  <div class="project-overlay">
-    <h3>{title}</h3>
+<a
+  class="relative group bg-neutral-900 rounded-md overflow-hidden"
+  rel="external"
+  {href}
+  target="_blank"
+  use:inview
+  on:enter={() => (loadVideo = true)}
+  on:mouseover={() => videoElement.play()}
+  on:mouseout={() => videoElement.pause()}
+  on:focus={() => videoElement.play()}
+  on:blur={() => videoElement.pause()}
+>
+  {#if thumbnail}
+    <img
+      class="aspect-video w-full object-cover {video
+        ? 'group-hover:opacity-0'
+        : ''} opacity-100 transition absolute top-0 left-0 duration-300"
+      src="/projects/thumbnails/{thumbnail}"
+      alt={title}
+    />
+  {/if}
+  {#if video && loadVideo}
+    <video class="aspect-video w-full object-cover" loop muted playsinline bind:this={videoElement}>
+      <source src="/projects/{video}" type="video/webm" />
+    </video>
+  {:else}
+    <div class="block aspect-video w-full" />
+  {/if}
+  <div class="p-3">
+    <h3 class="text-xl font-bold">{title}</h3>
     <p>
       <slot />
     </p>
-    <ArrowRightIconSolid className="bottom-arrow" />
   </div>
-  {#if video && loadVideo}
-    <video class="w-full" autoplay loop muted playsinline>
-      <source src="/projects/{video}" type="video/mp4" />
-    </video>
-  {/if}
 </a>
