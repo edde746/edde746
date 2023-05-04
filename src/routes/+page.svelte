@@ -76,6 +76,10 @@
       </p>
     </div>
     <div class="projects grid gap-4 md:grid-cols-2">
+      <Project title="FluxAuth" href="https://fluxauth.com" video="fluxauth.webm" thumbnail="fluxauth.webp">
+        Software licensing SaaS, built with SvelteKit, Prisma and Redis. Full management dashboard, rest API, blog and
+        documentation. Stripe integrated for usage based billing. SDKs written in C++, C#, Python, Go, Node and PHP.
+      </Project>
       <Project title="RealDudesInc" href="https://realdudesinc.com" video="rdi.webm" thumbnail="rdi.webp">
         E-commerce site for software licenses built with SvelteKit, Strapi and Docker. Based of the previous design of
         the site but rewritten from scratch with Tailwind for styling.
@@ -83,6 +87,9 @@
       <Project title="Divine" href="https://divinemods.com" video="divine.webm" thumbnail="divine.webp">
         E-commerce site for software licenses built with SvelteKit, Strapi and Docker. Integrates Stripe, Coinbase and
         PayPal for payments and Amazon SES for email including magic-link login.
+      </Project>
+      <Project title="Authority" href="https://authority.software" video="authority.webm" thumbnail="authority.webp">
+        E-commerce frontend for Sellix store, runs in Docker with Haproxy. Built with SvelteKit, Redis and Tailwind.
       </Project>
       <Project
         title="ZeroPoint Exotics"
@@ -93,7 +100,7 @@
         Rental car booking site built with SvelteKit, Strapi and Docker. Renders contacts as docx and e-mails them. Cars
         can be managed via the Strapi admin panel.
       </Project>
-      <Project title="Cedara" href="https://cedara.cc" video="cedara.mp4" thumbnail="cedara.webp">
+      <Project title="Cedara" href="https://cedara.cc" video="cedara.webm" thumbnail="cedara.webp">
         E-commerce site for software licenses built with SvelteKit, Strapi and Docker. Uses Stripe and Coinbase for
         payments and integrated OAuth login with Discord and Google.
       </Project>
