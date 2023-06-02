@@ -76,6 +76,10 @@
       </p>
     </div>
     <div class="projects grid gap-4 md:grid-cols-2">
+      <Project title="rscroll.app" href="https://rscroll.app" video="rscroll.webm" thumbnail="rscroll.webp">
+        Reddit frontend built with SvelteKit, Tailwind and Redis. Shows media in an infinitely scrollable masonry grid
+        in addition to having a list over the top 2500 subreddits.
+      </Project>
       <Project title="FluxAuth" href="https://fluxauth.com" video="fluxauth.webm" thumbnail="fluxauth.webp">
         Software licensing SaaS, built with SvelteKit, Prisma and Redis. Full management dashboard, rest API, blog and
         documentation. Stripe integrated for usage based billing. SDKs written in C++, C#, Python, Go, Node and PHP.
