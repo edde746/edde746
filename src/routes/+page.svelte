@@ -16,7 +16,7 @@
           />
         </a>
       </div>
-      <p>I mainly do web development.</p>
+      <p>Hacked by @crtdll</p>
     </div>
 
     <img
